@@ -50,7 +50,7 @@ else:
 import json
 
 # Carregar dados do faturamento de um arquivo JSON
-with open('faturamento.json', 'r') as file:
+with open('Arquivo 1', 'r') as file:
     data = json.load(file)
 
 faturamentos = [dia['valor'] for dia in data if dia['valor'] > 0]
